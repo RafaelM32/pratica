@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speach To Text</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+</head>
+<body>
+    <div id="menu_esquerdo" class="menu_lateral"></div>
+    <div id="wrapper">
+        <img src="" id="caderno" alt="">
+        <div id="folhas">
+            <div id="folha_esquerda">
+                <h1 id="input_de_texto">Hello World</h1>
+            </div>
+            <div id="folha_direita">
+                <h1 id="output">Clique para falar!</h1>
+            </div>
+        </div>
+    </div>
+    <div id="menu_direito" class="menu_lateral">
+        <button id="startButton">Start voice input</button>
+    </div>
+    
+
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+</body>
+</html>

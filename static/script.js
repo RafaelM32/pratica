@@ -1,6 +1,10 @@
 const startButton = document.getElementById("startButton")
 const outputDiv   = document.getElementById("output")
+const elemento_img_caderno = document.getElementById("caderno")
 
+
+
+elemento_img_caderno.src = "static/img/caderno.png"
 
 
 const recognition = new (window.SpeechRecognitionAlternative || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)();

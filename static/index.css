@@ -1,0 +1,64 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    overflow: hidden;
+}
+
+.menu_lateral{
+    background-color: bisque;
+    border: solid;
+    border-color: black;
+    margin-top: -0.5vw;
+    height: 48.5vw;
+}
+#wrapper{
+    margin-top: -0.5vw;
+    width: 100%;
+    background-color: white;
+}
+
+#caderno{
+    position: relative;
+    z-index: 0;
+    display: grid;
+    width: 100%;
+}
+
+#folhas{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    z-index: 1;
+    width: 97.3%;
+    height: 97%;
+    margin-top: -69.5%;
+    margin-left: 1.5%;
+
+}
+
+#folha_esquerda{
+    margin-left: 3.5%;
+    margin-top: 15%;
+    width: 87%;
+    height: 85%;
+
+}
+
+#folha_direita{
+    margin-left: 11%;
+    margin-top: 15%;
+    width: 87%;
+    height: 85%;
+
+}
+
+#menu_esquerdo{
+    margin-left: -0.5vw;
+}
+
+#menu_direito{
+    margin-right: -0.5vw;
+}
+
