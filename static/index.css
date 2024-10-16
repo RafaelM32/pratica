@@ -1,5 +1,4 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
     grid-template-columns: 15% 70% 15%;
     overflow: hidden;
@@ -15,7 +14,6 @@ body{
 #wrapper{
     margin-top: -0.5vw;
     width: 100%;
-    background-color: white;
 }
 
 #caderno{
@@ -47,18 +45,69 @@ body{
 }
 
 #folha_direita{
+    display: grid;
+    grid-template-rows: 10.6% 89.4%;
     margin-left: 11%;
-    margin-top: 15%;
     width: 87%;
-    height: 85%;
+    height: 100%;
 
 }
+
+#borracha{
+    width: fit-content;
+    height: fit-content;
+    border: solid;
+    border-color: black;
+    border-radius: 5%;
+    align-self: last baseline;
+    margin-left: 70%;
+    padding: 0%;
+}
+
+#imagem_do_botao_de_apagar{
+    width: 80%;
+    margin-bottom: -4%;
+}
+
+.input_de_texto{
+    background-color: rgba(255, 255, 255, 0);
+    font-family: cursive;
+    font-size: large;
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    vertical-align: middle;
+    color: dimgray;
+    text-decoration: underline;
+    text-underline-offset: 15%;
+}
+
+.input_de_texto::spelling-error{
+    text-decoration: none;
+}
+
+#startButton{
+    margin-top: 1%;
+    padding: 0%;
+    border: solid;
+    border-color: black;
+    border-radius: 5%;
+    border-width: 0.4vw;
+
+}
+#imagem_do_botao_de_play{
+    margin-bottom: -3%;
+}
+
+
 
 #menu_esquerdo{
     margin-left: -0.5vw;
 }
 
 #menu_direito{
+    text-align: center;
     margin-right: -0.5vw;
 }
 
